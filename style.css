@@ -1,0 +1,177 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+header {
+  background-color: #2a9d8f;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e9c46a;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #264653;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #2a9d8f;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Clubs Section */
+#clubs {
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.club-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Club Card Modern Design */
+.club-card {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 230px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.club-card h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+}
+
+.club-card p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: white;
+  opacity: 0.9;
+}
+
+.club-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+.club-card {
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff); /* Soft gradient */
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #2c3e50;
+  display: block;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.club-card:hover {
+  background: linear-gradient(135deg, #e64edc, #cce7ff);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.club-card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #2a9d8f;
+}
+
+.club-card p {
+  font-size: 14px;
+  color: #555;
+}
+<style>
+  .upload-section {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .upload-section h2 {
+    color: #0073e6;
+  }
+  .upload-section label {
+    font-weight: bold;
+  }
+  .upload-section input[type="file"] {
+    margin-top: 10px;
+  }
+  .upload-section button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .upload-section button:hover {
+    background-color: #005bb5;
+  }
+</style>
+
