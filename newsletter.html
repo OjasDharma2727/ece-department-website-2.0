@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Department Newsletter - ECE Department</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      header {
+        background-color: #0073e6;
+        padding: 20px;
+        text-align: center;
+        color: white;
+      }
+      nav {
+        background-color: #005bb5;
+        padding: 10px;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 15px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .container {
+        padding: 20px;
+      }
+      .newsletter-card {
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .newsletter-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+      .newsletter-thumbnail {
+        width: 80px;
+        height: 100px;
+        background-color: #dcdcdc;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: #555;
+        border-radius: 5px;
+      }
+      .newsletter-content h3 {
+        margin: 0;
+        color: #0073e6;
+      }
+      .newsletter-content p {
+        margin: 5px 0;
+        color: #555;
+      }
+      .newsletter-content a {
+        color: #0073e6;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .upload-section {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      footer {
+        background-color: #0073e6;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Department Newsletter - Stay Updated!</h1>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="faculty.html">Faculty</a>
+      <a href="classrooms.html">Classrooms</a>
+      <a href="labs.html">Labs</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+      <div class="newsletter-card">
+        <div class="newsletter-thumbnail">PDF</div>
+        <div class="newsletter-content">
+          <h3>January 2025 Edition</h3>
+          <p>
+            All the latest achievements, announcements, and department updates.
+          </p>
+          <a href="pdfs/newsletter_jan_2025.pdf" target="_blank"
+            >Read Newsletter →</a
+          >
+        </div>
+      </div>
+
+      <div class="newsletter-card">
+        <div class="newsletter-thumbnail">PDF</div>
+        <div class="newsletter-content">
+          <h3>February 2025 Edition</h3>
+          <p>
+            Exciting upcoming events and recent developments in the department.
+          </p>
+          <a href="pdfs/newsletter_feb_2025.pdf" target="_blank"
+            >Read Newsletter →</a
+          >
+        </div>
+      </div>
+
+      <div class="newsletter-card">
+        <div class="newsletter-thumbnail">PDF</div>
+        <div class="newsletter-content">
+          <h3>March 2025 Edition</h3>
+          <p>
+            Insights on workshops, guest lectures, and student achievements.
+          </p>
+          <a href="pdfs/newsletter_mar_2025.pdf" target="_blank"
+            >Read Newsletter →</a
+          >
+        </div>
+      </div>
+
+      <div class="upload-section">
+        <h2>Upload Your Newsletter or Event Photos 📤</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+          <label for="file-upload">Choose File (PDF, Images):</label>
+          <input
+            type="file"
+            id="file-upload"
+            name="uploadedFile"
+            accept=".pdf, .jpg, .png, .jpeg"
+            required
+          />
+          <br /><br />
+          <button type="submit">Upload File</button>
+        </form>
+        <p>
+          <em
+            >(Currently, this is a demo. File uploads need a backend to
+            work.)</em
+          >
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 ECE Department, ABVGIET. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
